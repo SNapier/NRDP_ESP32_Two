@@ -89,9 +89,6 @@ TaskHandle_t hostTaskHandle = NULL;
 /** Ticker for host checks */
 Ticker hostTicker;
 
-/** Comfort profile */
-ComfortState cf;
-
 /* 
  Flag if monitoring tasks should run 
  Default is FALSE, the tasks are enabled in the Setup Function 
@@ -164,7 +161,7 @@ bool initHostCheck() {
     Serial.println("Failed to start task for Host Check");
     return false;
   } else {
-    // Start update of environment data every 60 seconds
+    // Start update of environment data every 28 seconds
     hostTicker.attach(29, triggerSendHost);
   }
   return true;
