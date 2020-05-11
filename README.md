@@ -43,15 +43,15 @@ The example will not work out of the box. You must make some changes to the netw
 and NRDP server configuration.
 
 ### WiFi Connection Settings
-Line # 
+Line # 105
 Change the SSID to be that of your test network.
-Line # 
+Line # 106
 Change the password for your test network
 
 ### NagiosXI NRDP Settings
-Line #
+Line # 599
 Change the hostname in the nrdp url string to be that of your NagiosXI Server
-Line #
+Line # 606
 Change the token value to be that of your NagiosXI Server
 
 ## NagiosXI Inbound Connection Settings
