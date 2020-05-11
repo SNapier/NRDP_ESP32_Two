@@ -502,7 +502,7 @@ If the temp is above the crit_t value return true
 Else return false 
 */
 bool checkTempCritical(float t) {
-  if(t > 29.00){
+  if(t > 27.00){
       return true;
     }
   else{
